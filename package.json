@@ -1,0 +1,23 @@
+{
+  "name": "parcial1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dasafodev/parcial1-web.git"
+  },
+  "author": "Santiago Forero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dasafodev/parcial1-web/issues"
+  },
+  "homepage": "https://github.com/dasafodev/parcial1-web#readme",
+  "devDependencies": {
+    "eslint-config-prettier": "^8.1.0",
+    "prettier": "^2.2.1"
+  }
+}

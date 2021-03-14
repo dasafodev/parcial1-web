@@ -1,31 +1,73 @@
-body{
-    
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  padding-top: 16px;
 }
 
-
-
-
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+.name-place {
+  font-family: "Satisfy", cursive;
+  margin: 0;
+}
+.main-image {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
 }
 
-.name-place{
-    font-family: 'Satisfy', cursive;
-    margin: 0;
-}
-.main-image{
-    height: 400px ;
-    width: 100%;
-    object-fit: cover;
+.menu-title {
+  text-align: center;
 }
 
-.menu-title{
-    text-align: center;
+p {
+  margin: 0;
 }
 
-p{
-    margin: 0;
+.cover {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+#cart-container {
+  display: flex;
+  align-items: center;
+}
+
+#cart-container > img {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn-cart {
+  width: 120px;
+}
+
+.price-text {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.actions-bot {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
 }
